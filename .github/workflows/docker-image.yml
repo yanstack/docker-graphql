@@ -28,7 +28,7 @@ jobs:
         docker build -t yanstack15/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push yanstack15/docker-graphql:0.0.2 .
+        docker push yanstack15/docker-graphql:0.0.2
         
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
